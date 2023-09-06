@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
+        android:layout_gravity="top"
         android:layout_height="200dp"
+
         android:src="@drawable/cover_home" />
 
     <ScrollView
@@ -20,29 +23,201 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Short Courses"
+                    android:textColor="@color/white" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Library"
+                    android:textColor="@color/white" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hostel Facility"
+                    android:textColor="@color/white" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="_____________________________________" />
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="DEPARTMENTS" />
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:orientation="horizontal">
+
+
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/auto_and_farm_button"
+                    android:foreground="@drawable/auto_and_farm_button" />
+
+
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/civel_button"
+                    android:foreground="@drawable/civel_button"
+                    android:layout_weight="1" />
+
+
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/computer_info_tech_button"
+                    android:foreground="@drawable/computer_info_tech_button"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/electrical_button"
+                    android:foreground="@drawable/electrical_button" />
+
+
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/electroniks_button"
+                    android:foreground="@drawable/electroniks_button"
+                    android:layout_weight="1" />
+
+
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/mcanical_button"
+                    android:foreground="@drawable/mcanical_button"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/telecomunication_button"
+                    android:foreground="@drawable/telecomunication_button" />
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/related_studies_button"
+                    android:foreground="@drawable/related_studies_button"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
