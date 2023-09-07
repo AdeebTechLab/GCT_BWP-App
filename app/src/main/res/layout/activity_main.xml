@@ -218,6 +218,313 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="_____________________________________"  />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="ADMISSION" />
+
+            <HorizontalScrollView
+                android:id="@+id/Secrol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="0dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:text="Admission System" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_weight="1"
+                        android:text="Division Of Seats" />
+
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_weight="1"
+                        android:text="Important Instruction" />
+
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Admission Dues" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Administration Staff" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textVie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="OTHER" />
+
+            <HorizontalScrollView
+                android:id="@+id/Secrole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="0dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:text="Hostel" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+
+                    <Button
+                        android:id="@+id/button19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_weight="1"
+                        android:text="Library" />
+
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_weight="1"
+                        android:text="Sports" />
+
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button21"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Internship and Placement Cell" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button22"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="In Campus Facilities" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button23"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Procurement Cell" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button24"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/white"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Propectus" />
+
+                    <Space
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:id="@+id/textVice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="_____________________________________"  />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Events"
+                    android:textColor="@color/white" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Gallery"
+                    android:textColor="@color/white" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="About Us"
+                    android:textColor="@color/white" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 

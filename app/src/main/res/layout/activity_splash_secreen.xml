@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/my_light_primary"
     tools:context=".SplashSecreen">
 
 
@@ -34,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:textStyle="bold"
-        android:text="Bs Information Security IUB"
+        android:text="Government College of Technology, Bahawalpur"
         android:textColor="@color/white"
         android:textSize="15dp"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
