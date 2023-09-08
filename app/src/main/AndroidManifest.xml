@@ -24,6 +24,41 @@
         android:theme="@style/Theme.GCTBWP"
         tools:targetApi="31">
         <activity
+            android:name=".Division_of_Seats"
+            android:exported="false" />
+        <activity
+            android:name=".AdmissionSystem"
+            android:exported="false"
+            android:label="@string/title_activity_admission_system"
+            android:theme="@style/Theme.GCTBWP" />
+        <activity
+            android:name=".FacultyMembers"
+            android:exported="false" />
+        <activity
+            android:name=".Dpt_Telecommunication"
+            android:exported="false" />
+        <activity
+            android:name=".Dpt_Mechanical"
+            android:exported="false" />
+        <activity
+            android:name=".Dpt_Electronics"
+            android:exported="false" />
+        <activity
+            android:name=".Dpt_Electrical"
+            android:exported="false" />
+        <activity
+            android:name=".dpt_cit"
+            android:exported="false" />
+        <activity
+            android:name=".Dpt_Civil"
+            android:exported="false" />
+        <activity
+            android:name=".Dpt_Auto_and_Farm"
+            android:exported="false" />
+        <activity
+            android:name=".Hostel"
+            android:exported="false" />
+        <activity
             android:name=".Library"
             android:exported="false" />
         <activity

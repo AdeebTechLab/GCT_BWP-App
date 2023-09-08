@@ -59,5 +59,150 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        //Button------------------------------------------------------------
+
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Hostel.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+        //Button------------------------------------------------------------
+
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Dpt_Auto_and_Farm.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        //Button------------------------------------------------------------
+
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Dpt_Civil.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        //Button------------------------------------------------------------
+
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, dpt_cit.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+        //Button------------------------------------------------------------
+
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Dpt_Electrical.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+        //Button------------------------------------------------------------
+
+        b8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Dpt_Electronics.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+
+        //Button------------------------------------------------------------
+
+        b9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Dpt_Mechanical.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+
+        //Button------------------------------------------------------------
+
+        b10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Dpt_Telecommunication.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+
+
+        //Button------------------------------------------------------------
+
+        b11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FacultyMembers.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        //Button------------------------------------------------------------
+
+        b12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AdmissionSystem.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        //Button------------------------------------------------------------
+
+        b13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Division_of_Seats.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+
     }
 }

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdmissionSystem">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Eligibility" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="(A)- He must be pass in Matric (SSC) from any Board of I ntermediate and Secondary Education or equivalent to Matric (SSC) having subjects Elective Maths, English, Physics and Chemistry.
+(B)- His aggregate marks should be at least 40% in Matric (SSC) exams.
+(1)- The Candidate who is failed in any subject mentioned above or he has passed his Secondary School Certificate in “E Grade” will not be eligible for admission.
+(2)- Such candidates who have passed any one of the above mentioned subjects in “Grace / Concessional Marks”, and these marks are included in the aggregate marks, will be considered eligible for admission subject to that they may fulfill the rest of conditions for the admission.
+(3)- Preliminary admission will be on provisional basis and it will be confirmed after the verification of Matric Result Card/Certificate from the respective Board of Intermediate and Secondary Education. If any candidate succeeded to get admission by producing bogus result card/ certificate, his admission will be cancelled immediately without assigning any reason and his case will be referred to the POLICE.
+(4)- The candidate who has learnt the Holy Quran by heart will be awarded 20 additional marks. The Hafiz-e-Quran will have to provide documentary proof/certificate for Hifz and he will have to appear before the admission committee for the test and verification that he has learned the complete Holy Quran by heart.
+(5)- Student who have paased GTTI one year certificate with Matric (Science) will get 20 additional marks.
+(6)- Student having paased his Matric (Science) exam with industrial subject will also get 20 additional marks, if he has 60% marks in industrial subject.
+(7)-Age relaxation upto 3-years will be granted by the principal." />
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Physical Fitness" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="The age of candidate should be within 18 years on 1st September, the year in which he is seeking admission, however candidates having age more than 18 years can get Age Relaxation from Concerned authority. (Principal can relax age up to 1 year for the applicants of open merit. Principal can relax age of Disable, TTI/TTC and Hafiz applicants up to three years).
+(i) After displaying the merit lists, the application for the age relaxation will not be considered.
+(ii) Applications of over age candidates will be considered if the seats remain vacant after providing admission to eligible candidates.
+" />
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Note (Change of Shift)" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="(i) Age limit for second shift (evening) iss 28 year.
+(ii) Student admitted in second shift(eve.) will not be allowaed to change the shift at any cost." />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

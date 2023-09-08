@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Library">
+    tools:context=".dpt_cit">
+
+
+
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_gravity="top"
 
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,10 +27,10 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="2707dp"
+                android:layout_height="2898dp"
                 android:layout_gravity="top|center_vertical|fill_vertical"
                 android:scaleType="fitStart"
-                android:src="@drawable/library_data" />
+                android:src="@drawable/dpt_cit" />
         </LinearLayout>
     </ScrollView>
 

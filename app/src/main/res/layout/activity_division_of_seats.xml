@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Division_of_Seats">
+
+
+
+    <ScrollView
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Division of Seats" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="#	Quota	%" />
+            <TextView
+                android:id="@+id/textView3"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1	All Punjab	85" />
+            <TextView
+                android:id="@+id/textView4"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="2	Azad Kashmir/Gilgit/Northern Areas/FATA	03" />
+            <TextView
+                android:id="@+id/textView5"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="3	Armed Forces Personnel's (Navy, Army, Air Force)	02" />
+            <TextView
+                android:id="@+id/textView6"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="4	Children of In-Service/Retired/Died Employees of TEVTA	05" />
+            <TextView
+                android:id="@+id/textView7"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="5	On Reciprocal Basis for other provinces	02" />
+            <TextView
+                android:id="@+id/textView8"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="6	Qualified from Govt. Technical Training Institute/Centers having capability of Matric Science and minimum one year certificate in respective trade/technology	03" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="7	Minorities	05" />
+            <TextView
+                android:id="@+id/textView10"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="8	Disabled Persons	02" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Note" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Reserved unfilled seats of GTTI quota are convertible to open merit at the time of admission" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="The expiry of the date fixed by Punjab Board of Technical Education Lahore for admission of reserved seats (Reciprocal, FATA, Azad Kashmir, Northern Areas, Armed forces, childrens of employees of TEVTA and the qualified students of Govt. technical training institute/centers etc). The principal is fully competent to convert the remaining vacant reserved seats on open merit." />
+            <TextView
+                android:id="@+id/textView14"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="The above-mentioned number and division of seats may be changed/altered without assigning any reason at any time with the orders of the respective authority. The Candidate of Bahawalpur Division is also eligible to get admission on the prescribed seats on all Punjab Basis. But for this purpose he will have to apply separately." />
+            <TextView
+                android:id="@+id/textView15"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Human Rights Minorities Department will pay Fee/Funds for the minorities, as applicable at the time of admission with reference to TEVTA/GM(O)/Minor/79/1430 dated 3rd June, 2010." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
