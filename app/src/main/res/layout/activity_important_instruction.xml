@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Important_Instruction">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Important Instruction
+" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1- Admission dues will be deposited at the time of interview. No further time will be given and next applicant on merit will be entertained.
+2- Bring original documents at the time of interview.
+3- Interview schedule in prospectus. No further information will be delivered.
+4- If any applicant dose not claim additional 20 marks of Hifiz-e-Quran / Industrial subject in merit, he himself will be responsible for this negligence.
+5- Do not forget to bring Original domicile along with other Documents and Admission dues." />
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Application procedure on reserved quota is as," />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1-Applicants from Northern areas will submit their applications Through Directorate of education Northern Areas Gilgit
+2-Aplicants from Azad Kashmir will send their applications through Azad Kashmir Nomination Board via Ministry of Kashmir
+3-Army personal/Defense services' children will submit their applications through GHQ Rawalpindi / naval Head Quarter Islamabad / Air Head Quarter Islamabad
+4-Above written serial no 2 and 4 will send nomination to Zonal Manager TEVTA south zone
+5-Applicants of Reciprocal base will submit their applications through competent authority to General Manager Operation TEVTA Lahore
+6-Disable applicants will submit disable certificate issued by District Medical Board
+7-TEVTA employee's children will submit applications through controlling officer of employee and zonal Manager." />
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Detail of Atteched Documents" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="
+#	Document
+1	Photo (Passport Size)	8 Nos.
+2	Result Card Matric	8 Nos.
+3	Domicile/B-Form	2 Nos.
+4	Character Certificate	2 Nos.
+5	CNIC (Father/Guardian)	3 Nos." />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

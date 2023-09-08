@@ -269,7 +269,6 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
 
-
                     <Button
                         android:id="@+id/button13"
                         android:layout_width="wrap_content"
@@ -360,7 +359,7 @@
                         android:layout_weight="1" />
 
                     <Button
-                        android:id="@+id/button18"
+                        android:id="@+id/button17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/white"
@@ -374,7 +373,7 @@
 
 
                     <Button
-                        android:id="@+id/button19"
+                        android:id="@+id/button18"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/white"
@@ -389,7 +388,7 @@
                         android:layout_weight="1" />
 
                     <Button
-                        android:id="@+id/button20"
+                        android:id="@+id/button19"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/white"
@@ -404,7 +403,7 @@
                         android:layout_weight="1" />
 
                     <Button
-                        android:id="@+id/button21"
+                        android:id="@+id/button20"
                         android:layout_width="wrap_content"
                         android:textColor="@color/white"
 
@@ -418,7 +417,7 @@
                         android:layout_weight="1" />
 
                     <Button
-                        android:id="@+id/button22"
+                        android:id="@+id/button21"
                         android:layout_width="wrap_content"
                         android:textColor="@color/white"
 
@@ -432,7 +431,7 @@
                         android:layout_weight="1" />
 
                     <Button
-                        android:id="@+id/button23"
+                        android:id="@+id/button22"
                         android:layout_width="wrap_content"
                         android:textColor="@color/white"
 
@@ -446,7 +445,7 @@
                         android:layout_weight="1" />
 
                     <Button
-                        android:id="@+id/button24"
+                        android:id="@+id/button23"
                         android:layout_width="wrap_content"
                         android:textColor="@color/white"
 
@@ -487,7 +486,7 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:id="@+id/button25"
+                    android:id="@+id/button24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -500,7 +499,7 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:id="@+id/button26"
+                    android:id="@+id/button25"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -513,7 +512,7 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:id="@+id/button27"
+                    android:id="@+id/button26"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

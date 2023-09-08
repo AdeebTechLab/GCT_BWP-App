@@ -24,6 +24,23 @@
         android:theme="@style/Theme.GCTBWP"
         tools:targetApi="31">
         <activity
+            android:name=".Administration_Staff"
+            android:exported="false" />
+        <activity
+            android:name=".Important_Instruction"
+            android:exported="false" />
+        <activity
+            android:name=".Admission_System"
+            android:exported="false"
+            android:label="@string/title_activity_admission_system"
+            android:theme="@style/Theme.GCTBWP" />
+        <activity
+            android:name=".Admission_Dues"
+            android:exported="false" />
+        <activity
+            android:name=".ImportantInstruction"
+            android:exported="false" />
+        <activity
             android:name=".Division_of_Seats"
             android:exported="false" />
         <activity

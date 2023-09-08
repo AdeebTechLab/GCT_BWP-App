@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14;
+    Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         b12 = findViewById(R.id.button12);
         b13 = findViewById(R.id.button13);
         b14 = findViewById(R.id.button14);
+        b15 = findViewById(R.id.button15);
+        b16 = findViewById(R.id.button16);
+        b17 = findViewById(R.id.button17);
 
 
 
@@ -183,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
         b12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, AdmissionSystem.class);
+                Intent intent = new Intent(MainActivity.this, Admission_System.class);
                 startActivity(intent);
 
             }
@@ -200,6 +203,46 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+        //Button------------------------------------------------------------
+
+        b14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Important_Instruction.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+        //Button------------------------------------------------------------
+
+        b15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Admission_Dues.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+
+        //Button------------------------------------------------------------
+
+        b16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Administration_Staff.class);
+                startActivity(intent);
+
+            }
+        });
+
 
 
 

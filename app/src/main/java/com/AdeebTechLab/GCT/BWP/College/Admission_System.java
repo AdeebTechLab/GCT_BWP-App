@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class AdmissionSystem extends AppCompatActivity {
+public class Admission_System extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

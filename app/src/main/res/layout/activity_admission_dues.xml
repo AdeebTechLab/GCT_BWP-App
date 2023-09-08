@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admission_Dues">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Admission Dues" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Note" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1- Any Charge in dues from TEVTA/PBTE will be applicable according to notification" />
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Moring Shift" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="
+#	Dues	DAE(RS)
+1	Admission Fee	115
+2	Tuition Fee	2904
+3	Exam/Stationary Fund	484
+4	Parking Fund	242
+5	Welfare Fund	732
+6	Sports Fund	204
+7	Masjid Fund
+8	Computer Fund	2442
+9	ID/Bus Card Fund	66
+10	Document Verification Fee	1100
+11	PBTE Registration Fee / AD. Form	810
+12	Over Age Fee	407
+13	Breakage Fee	528
+14	College Security	1413
+15	Sports Fund (Board)	" />
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="
+#	Detail	Rs	Remarks" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1	Hostel Rent	594	Per Aunum
+2	Crockery/Common Room and Welfare Fund	407	Per Aunum
+3	Hostel/Mess Security (Refundable)	3031	At the time of Allotment
+4	Electricity, Telephone, Nnews Paper, Fuel	Equally Distributed on Boarders
+5	Sui Gas and other maintence expenditure
+6	Salary of Hostel employees	Equally Distributed on Boarders
+7	Mess Advance	Will be collected by mess commttee under the supervision of hostel admin to run the mess according to requirment and refund at the end of session" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
